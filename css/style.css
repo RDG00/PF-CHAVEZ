@@ -114,3 +114,10 @@ text-align: center;
     padding-left: 3%;
     padding-right: 3%;
 }
+
+
+.bigicon {
+    text-align: center;
+    font-size: 35px;
+    color: #737373;
+}
