@@ -2,107 +2,187 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Spy Bonds 007 Fansite - Quantum Of Solace</title>
+    <title>Spy Bonds 007 Fansite</title>
    
-    <!-- Archivo CSS -->
-    <link rel="stylesheet" href="./css/style.css">
+   <!-- Archivos CSS -->
+
+   <link rel="stylesheet" href="../css/style.css">
+
+   <!-- bootstrap -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
 
 </head>
 
 <body>
-    <div class="contenedor-pag">
+   <div class="contenedor-pag">
         
-        <!-- header / primero va el menu arriba, luego el h1 header  -->
+
         
-        <!-- Menu Navegacion -->
-        
-        <nav class="navbar">
-            <ul>
-                
-                <li class="nav-item"><a href="./index.html">Home</a></li>
-                <li class="nav-item"><a href="./casino.html">Casino Royale</a></li>
-                <li class="nav-item"><a href="./quantum.html">Quantum Of Solace</a></li>
-                <li class="nav-item"><a href="./skyfall.html">Skyfall</a></li>
-                <li class="nav-item"><a href="./contactanos.html">Contactanos</a></li>
-                
-            </ul>
-            
+        <!-- LOGO PRINCIPAL ARRIBA -->
+
+        <div>
+            <img src="../media/007logo1.png" class="img-fluid" alt="logo">
+        </div>
+
+
+        <!-- NAVBAR BOOTSTRAP -->
+        <main class="sticky-top">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Películas
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="./casino2.html">Casino Royale</a></li>
+                    <li><a class="dropdown-item" href="./quantum.html">Quantum of Solace</a></li>
+                    <li><a class="dropdown-item" href="./skyfall.html">Skyfall</a></li>
+                  </ul>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Videojuegos
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">En construcción</a></li>
+                    </ul>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./contactanos.html">Contactanos</a>
+                  </li>
+                </li>
+
+              </ul>
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Escribí acá" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Búsqueda</button>
+              </form>
+            </div>
+          </div>
         </nav>
-        
-        <!-- Header con imagen -->
-        <header class="header-quantum">
-            <div class="logo1"><img src="./media/007logo.png" alt="007 logo" width="200px">
-            </div>
-            <div class="titulo1-quantum"><h1>Quantum Of Solace</h1></div>
-            <div class="titulo2"><h2>Spy Bonds</h2></div>
-        </header>
-
-<!-- Comienzo del contenido index -->
-    <main class="contenedor">
-        <section class="main-container">
-            <div class="content-info">
-                <h2>Sinopsis</h2>
-                <p>Traicionado por Vesper, la mujer a la que amaba, 007 se plantea su nueva misión como algo personal. Durante su investigación, Bond y M interrogan a Mr. White, que les revela que la organización que chantajeó a Vesper es mucho más compleja y peligrosa de lo que imaginan. El servicio de inteligencia forense vincula a un traidor del Mi6 con una cuenta bancaria en Haití, donde Bond conoce a la bella pero combativa Camille, una mujer que tiene sus propios motivos para vengarse.
-                    
-                    <br> <br> Camille pone a Bond tras la pista de Dominic Greene, un despiadado hombre de negocios y miembro importante de la misteriosa organización. Bond averigua que el objetivo de Green es controlar uno de los recursos naturales más importantes del mundo; pero, para ello, tiene que derrocar al gobierno de un país sudamericano.</p>
-            </div>
-        </section>    
+      </main>
             
-            <!-- Comienzo de Cast Principal Quantum -->
-            <section class="cast-quantum">
-            <div class="content-castqu"> 
-                <h2>Cast Principal</h2>
-                <img src="https://cdn.justjared.com/wp-content/uploads/2008/01/craig-quantum/daniel-craig-quantum-of-solace-23.jpg" height="300 px" alt="Cast quantum">
-                <P>(2008) Cast Principal de izquierda a derecha: <br> Mathieu Amalric, Olga Kurylenko, Daniel Craig y Gemma Arterton</P>
-            </div>
-            </section>
+          <!-- IMAGEN BANNER -->
+          <div id="img-banner" class="img-banner">
+            <img src="../media/quantum2.jpg" class="img-fluid" width="864px" height="458.4px" alt="Casino Royale">
+          </div>
 
-            <section class="videos-quantum">
-                <h2>Trailer</h2>
-                <video src="./media/Quantum of Solace - Trailer en Español.mp4" height="300px" controls >Tailer Quantum of Solace</video>
-            </section>
+                    <!-- SINOPSIS + POSTER -->
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-md-8"><h3>Sinopsis</h3> <p class="parrafo">Cronológicamente tiene lugar tras los hechos ocurridos en 'Casino Royale'. El agente 007 ha sido traicionado por Vesper Lynd, la única mujer a la que alguna vez ha amado, y justo después de ser descubierta ésta ha muerto asfixiada en sus brazos. <br>
 
-
-            <section class="music-quantum">
-                <h2>Soundtrack</h2>
-                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/0wAHDK6vmWtBZN6CghAyZ9?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-
-            </section>
-
-            <div class="quantum-galeria">
-                <h2>Galería</h2>
-               <img src="./media/quantum-galeria.png" width="650" alt="Galería Fotos Quantum of Solace">                            
-            </div>
-            
-            
-        
-        <!-- Footer Contenido -->
-        <footer class="footer-container">   
-            <nav class="navbar-footer">
-                <ul>
+                          <br> Ahora, Bond está decidido a encontrar a aquéllos que obligaron a Vesper a traicionarle, y se toma la investigación como algo personal. En compañía de su jefa, M, interroga al misterioso Mr. White, quien les revela que la organización secreta que chantajeó a Vesper es mucho más compleja y peligrosa de lo que parecía a simple vista. <br>
+                          
+                          <br> El destino llevará a 007 a conocer a la bella Camille, una mujer con similares ansias de venganza que le conducirá hasta Dominic Greene, un sombrío hombre de negocios con una posición de importancia dentro de la organización que Bond persigue, y que parece llamarse "Quantum". Pronto el espía británico y Camille descubren que ese hombre pretende hacerse con el control de un vital recurso natural, y que para ello ha de eliminar al gobierno de cierto país sudamericano.</p>
+                        </div>
+                        <div class="col-6 col-md-4"><img src="https://cdn.shopify.com/s/files/1/0037/8008/3782/products/quantum_of_solace_advance_EB04534_B_2_framed1_e598637d-374e-4581-873a-9d8ca2585986-305260.jpg?v=1611688085" width="100%" alt="poster-quantum"></div>
+                      </div>
+                    </div>
                     
-                    <li class="nav-item"><a href="./index.html">Home</a></li>
-                    <li class="nav-item"><a href="./casino.html">Casino Royale</a></li>
-                    <li class="nav-item"><a href="./quantum.html">Quantum Of Solace</a></li>
-                    <li class="nav-item"><a href="./skyfall.html">Skyfall</a></li>
-                    <li class="nav-item"><a href="./contactanos.html">Contactanos</a></li>
-                    
-                </ul>
-                
-            </nav>
+                    <!-- BOTON PRIME VIDEO -->
+                    <div class="boton">
+                      <img src="../media/icons8-amazon-prime-video-240.png" width="50px" alt="primeicon">         
+                      <button type="button" class="btn btn-primary"> <a href="https://www.primevideo.com/" style="color:#ffffff;"> Mirala en Amazon Prime </a> </button>
+                      <img src="../media/icons8-amazon-prime-video-240.png" width="50px" alt="primeicon">
+                    </div>
 
-          <br>  <p class="copyright">Copyright de 007, James Bond pertenecen a MGM, Spy Bonds 007 Fansite, <br>
+          <!-- CAST BOOTSTRAP -->
+        <section class="cast">
+          <h3 class="texto">Cast Principal</h3>
+          <div class="container text-center">
+          <div class="row">
+            <div class="col-6 col-md-4">
+              <a href="https://www.imdb.com/name/nm0185819/?ref_=tt_cl_i_1"> <img src="../media/craig.jpg" width="150px" alt="Daniel Craig">
+              <br><p class="names"><b>Daniel Craig</b>  </a> <br>como James Bond</p>
+            </div>
+            <div class="col-6 col-md-4">
+              <a href="https://www.imdb.com/name/nm1385871/?ref_=tt_cl_i_2"><img src="../media/olga.png" width="150px" alt="Olga">
+              <br><p class="names"><b>Olga Kurylenko</b> </a> <br>como Camille</p>
+            </div>
+            <div class="col-6 col-md-4">
+              <a href="https://www.imdb.com/name/nm0023832/?ref_=tt_cl_i_3"><img src="../media/mathieu.png" width="150px" alt="Mathieu">
+              <br><p class="names"><b>Mathieu Amalric</b> </a> <br>como Dominic Greene</p>
+            </div>
+          </div>
+          </div>
+        </section>
 
-                2023 Derechos Reservados</p>
-        
-        
-    </footer>
-    
-</main>
+        <!-- TRAILER YOUTUBE -->        
+          <h3 class="texto">Trailer</h3> <br>
+          <div class="trailer">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/f6acw690AqQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
 
-<!-- Contenedor pagina cierre div -->
+        <!-- SOUNDTRACK SPOTIFY -->
+        <h3 class="texto">Soundtrack</h3> <br>
+        <div class="sonido">          
+          <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/1pjkY8bn8zjqNCrwfqv8c8?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+       </div>
+
+
+
+   <!-- Footer menu navbar bootstrap -->
+   <footer>
+   <nav class="navbar navbar-expand-lg bg-white">
+    <div class="container-fluid justify-content-center">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Películas
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="./casino2.html">Casino Royale</a></li>
+              <li><a class="dropdown-item" href="./quantum.html">Quantum of Solace</a></li>
+              <li><a class="dropdown-item" href="./skyfall.html">Skyfall</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Videojuegos
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="...">En construcción</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contactanos.html">Contactanos</a>
+          </li>
+        </ul>
+        <img src="../media/007logo1.png" width="60%" alt="logo footer">
+      </div>
+    </div>
+  </nav>
+
+      <br>  <p class="copyright">Copyright de 007, James Bond pertenecen a MGM, Spy Bonds 007 Fansite, <br>
+
+          2023 Derechos Reservados</p>
+  
+  
+      </footer>
+
+
 </div> 
+
+<!-- Script JS Bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
 </body>
 </html>
