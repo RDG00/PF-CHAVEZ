@@ -90,3 +90,27 @@ text-align: center;
     padding-bottom: 1%;
     padding-top: 1%;
 }
+
+.texto {
+    margin-top: 3%;
+    text-justify: distribute;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.parrafo{
+    text-align: justify;
+}
+
+.names {
+    text-align: left;
+}
+
+.trailer {
+   text-align: center;
+}
+
+.sonido {   
+    padding-left: 3%;
+    padding-right: 3%;
+}
