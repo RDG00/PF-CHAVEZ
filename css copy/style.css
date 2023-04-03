@@ -1,0 +1,127 @@
+
+
+
+.img-fluid {
+    background-color: white;
+    padding-top: 2%;
+}
+
+
+.contenedor-pag  {
+    max-width: 900px;
+    margin: auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.carousel, .slide {
+    border-radius: 2%;
+}
+
+body {
+    background-color: azure;
+    justify-content: center;
+    background: linear-gradient(rgb(43, 43, 43), rgb(243, 243, 243) );  
+    margin-bottom: 0%;
+
+}
+
+.row {
+    background-color: white;
+    padding: 3%;
+    text-align: left;
+}
+
+
+
+.noticias  {
+    border-radius: 2%;
+    background-color: rgb(39, 39, 39);
+    overflow: scroll;
+    width: 500px;
+    height: 510px;
+    padding: 5px;
+    color: white;
+}
+
+.noticia-span {
+font-style: italic;
+font-size: larger;
+}
+
+ol {
+    margin: 20px;
+    line-break: auto;
+    margin-top: 0px;
+    line-height: 30px;
+    list-style: none;
+}
+
+.mailing {
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+
+.navbar .navbar-expand-lg, .bg-body-tertiary, .container-fluid {
+display: inline;
+justify-content: center;
+}
+
+
+.copyright {
+text-align: center;
+
+}
+
+.contenedor-pag {
+    background-color: white;
+    box-shadow: 0px 0px 10px black;
+    padding: 2%;
+}
+
+.copyright {
+    padding-bottom: 4%;
+}
+
+.sticky-top {
+    position: sticky;
+    background: white;
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+
+.texto {
+    margin-top: 3%;
+    text-justify: distribute;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.parrafo{
+    text-align: justify;
+}
+
+.names {
+    text-align: left;
+}
+
+.trailer {
+   text-align: center;
+}
+
+.sonido {   
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+
+.bigicon {
+    text-align: center;
+    font-size: 35px;
+    color: #737373;
+}
+
+.boton {
+    text-align: center;
+}
