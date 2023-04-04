@@ -1,127 +1,112 @@
-
-
-
-.img-fluid {
-    background-color: white;
-    padding-top: 2%;
+body .img-fluid {
+  background-color: white;
+  padding-top: 2%;
+}
+body .contenedor-pag {
+  max-width: 900px;
+  margin: auto;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  background-color: white;
+  box-shadow: 0px 0px 10px black;
+  padding: 2%;
 }
 
-
-.contenedor-pag  {
-    max-width: 900px;
-    margin: auto;
-    margin-top: 1%;
-    margin-bottom: 1%;
+header .carousel, header .slide {
+  border-radius: 2%;
+}
+header .row {
+  background-color: white;
+  background: white;
+  padding: 3%;
+  text-align: left;
+}
+header .navbar .navbar-expand-lg, header .bg-body-tertiary, header .sticky-top, header .container-fluid {
+  position: sticky;
+  display: inline;
+  justify-content: center;
+  background-color: white;
+  background: white;
+  padding-bottom: 1%;
+  padding-top: 1%;
 }
 
-.carousel, .slide {
-    border-radius: 2%;
+body body {
+  background-color: azure;
+  justify-content: center;
+  background: linear-gradient(rgb(43, 43, 43), rgb(243, 243, 243));
+  margin-bottom: 0%;
+}
+body .carousel, body .slide {
+  border-radius: 2%;
+}
+body .row {
+  background-color: white;
+  padding: 3%;
+  text-align: left;
+}
+body .noticias {
+  border-radius: 2%;
+  background-color: rgb(30, 38, 47);
+  overflow: scroll;
+  width: 400px;
+  height: 510px;
+  padding: 5px;
+  color: white;
+}
+body .noticia-span {
+  font-style: italic;
+  font-size: larger;
+}
+body ol {
+  margin: 20px;
+  line-break: auto;
+  margin-top: 0px;
+  line-height: 30px;
+  list-style: none;
+}
+body .mailing {
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 2%;
+}
+body .texto {
+  margin-top: 3%;
+  text-justify: distribute;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+body .parrafo {
+  text-align: justify;
+}
+body .names {
+  text-align: left;
+}
+body .trailer {
+  text-align: center;
+}
+body .sonido {
+  padding-left: 3%;
+  padding-right: 3%;
+}
+body .bigicon {
+  text-align: center;
+  font-size: 35px;
+  color: #737373;
+}
+body .boton {
+  text-align: center;
 }
 
-body {
-    background-color: azure;
-    justify-content: center;
-    background: linear-gradient(rgb(43, 43, 43), rgb(243, 243, 243) );  
-    margin-bottom: 0%;
-
+footer .copyright {
+  text-align: center;
+  padding-bottom: 4%;
 }
 
-.row {
-    background-color: white;
-    padding: 3%;
-    text-align: left;
+@media (max-width: 576px) {
+  .trailer1 {
+    width: 400px;
+  }
 }
 
-
-
-.noticias  {
-    border-radius: 2%;
-    background-color: rgb(39, 39, 39);
-    overflow: scroll;
-    width: 500px;
-    height: 510px;
-    padding: 5px;
-    color: white;
-}
-
-.noticia-span {
-font-style: italic;
-font-size: larger;
-}
-
-ol {
-    margin: 20px;
-    line-break: auto;
-    margin-top: 0px;
-    line-height: 30px;
-    list-style: none;
-}
-
-.mailing {
-    text-align: center;
-    justify-content: center;
-    margin-bottom: 2%;
-}
-
-.navbar .navbar-expand-lg, .bg-body-tertiary, .container-fluid {
-display: inline;
-justify-content: center;
-}
-
-
-.copyright {
-text-align: center;
-
-}
-
-.contenedor-pag {
-    background-color: white;
-    box-shadow: 0px 0px 10px black;
-    padding: 2%;
-}
-
-.copyright {
-    padding-bottom: 4%;
-}
-
-.sticky-top {
-    position: sticky;
-    background: white;
-    padding-bottom: 1%;
-    padding-top: 1%;
-}
-
-.texto {
-    margin-top: 3%;
-    text-justify: distribute;
-    padding-left: 3%;
-    padding-right: 3%;
-}
-
-.parrafo{
-    text-align: justify;
-}
-
-.names {
-    text-align: left;
-}
-
-.trailer {
-   text-align: center;
-}
-
-.sonido {   
-    padding-left: 3%;
-    padding-right: 3%;
-}
-
-
-.bigicon {
-    text-align: center;
-    font-size: 35px;
-    color: #737373;
-}
-
-.boton {
-    text-align: center;
-}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,125 @@
+
+
+body {
+    .img-fluid {
+    background-color: white;
+    padding-top: 2%;}
+
+    .contenedor-pag  {
+    max-width: 900px;
+    margin: auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    background-color: white;
+    box-shadow: 0px 0px 10px black;
+    padding: 2%;
+    }
+}
+
+header{
+    .carousel, .slide {
+        border-radius: 2%;
+    }
+    .row {
+        background-color: white;
+        background: white;
+        padding: 3%;
+        text-align: left;
+    }
+    .navbar .navbar-expand-lg, .bg-body-tertiary, .sticky-top, .container-fluid {
+        position: sticky;
+        display: inline;
+        justify-content: center;
+        background-color: white;
+        background: white;
+        padding-bottom: 1%;
+        padding-top: 1%;
+        }
+}
+
+body{
+    body{
+        background-color: azure;
+        justify-content: center;
+        background: linear-gradient(rgb(43, 43, 43), rgb(243, 243, 243) );  
+        margin-bottom: 0%;
+    
+    }
+    .carousel, .slide {
+        border-radius: 2%;
+    }
+    .row {
+        background-color: white;
+        padding: 3%;
+        text-align: left;
+    }
+    .noticias  {
+        border-radius: 2%;
+        background-color: rgb(30, 38, 47);
+        overflow: scroll;
+        width: 400px;
+        height: 510px;
+        padding: 5px;
+        color: white;
+    }
+    .noticia-span {
+        font-style: italic;
+        font-size: larger;
+        }
+
+    ol {
+        margin: 20px;
+        line-break: auto;
+         margin-top: 0px;
+        line-height: 30px;
+        list-style: none;
+        }
+    .mailing {
+        text-align: center;
+        justify-content: center;
+        margin-bottom: 2%;
+        }  
+        .texto {
+            margin-top: 3%;
+            text-justify: distribute;
+            padding-left: 3%;
+            padding-right: 3%;
+        }
+        
+        .parrafo{
+            text-align: justify;
+        }
+        
+        .names {
+            text-align: left;
+        }
+        
+        .trailer {
+           text-align: center;
+        }
+        
+        .sonido {   
+            padding-left: 3%;
+            padding-right: 3%;
+        }
+        
+        
+        .bigicon {
+            text-align: center;
+            font-size: 35px;
+            color: #737373;
+        }
+        
+        .boton {
+            text-align: center;
+        }
+}
+
+footer{
+    .copyright {
+        text-align: center;   
+        padding-bottom: 4%;     
+        }
+}
+
+@import "queries";
