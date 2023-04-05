@@ -35,6 +35,10 @@ header{
         padding-bottom: 1%;
         padding-top: 1%;
         }
+    .bg-light {
+        background-color: white;
+        background: white;
+    }    
 }
 
 body{
@@ -57,10 +61,10 @@ body{
         border-radius: 2%;
         background-color: rgb(30, 38, 47);
         overflow: scroll;
-        width: 400px;
-        height: 510px;
         padding: 5px;
         color: white;
+        width: 400px;
+        height: 510px;
     }
     .noticia-span {
         font-style: italic;
@@ -117,7 +121,8 @@ body{
 
 footer{
     .copyright {
-        text-align: center;   
+        text-align: center; 
+        align-content: center;  
         padding-bottom: 4%;     
         }
 }

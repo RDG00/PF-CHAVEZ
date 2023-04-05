@@ -30,6 +30,10 @@ header .navbar .navbar-expand-lg, header .bg-body-tertiary, header .sticky-top, 
   padding-bottom: 1%;
   padding-top: 1%;
 }
+header .bg-light {
+  background-color: white;
+  background: white;
+}
 
 body body {
   background-color: azure;
@@ -49,10 +53,10 @@ body .noticias {
   border-radius: 2%;
   background-color: rgb(30, 38, 47);
   overflow: scroll;
-  width: 400px;
-  height: 510px;
   padding: 5px;
   color: white;
+  width: 400px;
+  height: 510px;
 }
 body .noticia-span {
   font-style: italic;
@@ -100,6 +104,7 @@ body .boton {
 
 footer .copyright {
   text-align: center;
+  align-content: center;
   padding-bottom: 4%;
 }
 
