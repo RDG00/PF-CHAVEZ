@@ -59,11 +59,11 @@ body{
     }
     .noticias  {
         border-radius: 2%;
-        background-color: rgb(30, 38, 47);
+        background-color: rgb(0, 0, 0);
         overflow: scroll;
         padding: 5px;
         color: white;
-        width: 400px;
+        width: 380px;
         height: 510px;
     }
     .noticia-span {
@@ -116,6 +116,11 @@ body{
         
         .boton {
             text-align: center;
+        }
+
+        #boton {
+            color: #e72424;
+            background-color: #e90101;
         }
 }
 
